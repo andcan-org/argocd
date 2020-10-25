@@ -1,1 +1,2 @@
-# argocd-images
+# ArgoCD Images
+
