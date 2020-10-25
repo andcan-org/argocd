@@ -18,6 +18,4 @@ RUN set -x; \
     && (cd /tmp/example && cdk8s init typescript-app) \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN npm version
-
 USER argocd
