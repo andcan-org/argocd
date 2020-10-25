@@ -16,7 +16,6 @@ RUN set -x; \
     && pnpm install -g cdk8s-cli@$CDK8S_VERSION \
     && mkdir -p /tmp/example \
     && (cd /tmp/example && cdk8s init typescript-app) \
-    && (cd /tmp/example && pnpm install) \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN npm version
